@@ -1,0 +1,15 @@
+<module rename-to="Idocs">
+
+    <!-- Inherit the core Web Toolkit stuff.                  -->
+    <inherits name='com.google.gwt.user.User'/>
+    <inherits name='com.google.gwt.json.JSON'/>
+    <inherits name="com.google.code.gwt.storage.Html5Storage"/>
+    <inherits name="com.google.code.gwt.database.Html5Database"/>
+
+    <!-- Specify the app entry point class.                   -->
+    <entry-point class='net.tetromi.idocs.client.Idocs'/>
+
+    <!-- Specify the app servlets.                   -->
+    <servlet path='/IdocsService' class='net.tetromi.idocs.server.IdocsServiceImpl'/>
+
+</module>
